@@ -6,6 +6,7 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 		 var guessChoices = [];
 
 		 document.onkeyup = function(event) {
+             console.log ('you hit ' + event.key);
 
 		 	var userGuess = event.key;
 
